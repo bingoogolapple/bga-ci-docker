@@ -1,0 +1,5 @@
+FROM jenkins/jenkins:2.154
+LABEL maintainer="bingoogolapple@gmail.com"
+
+USER root
+RUN apt-get update && curl -fsSL https://get.docker.com/ | sh
